@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="indext.css">
+    <script type="text/javascript" src="indext.js"></script>
+</head>
+<body>
+<div class="cart">
+  <div class="cart_title">我的购物车</div>
+  <table class="cart_table">
+    <tr>
+      <td><span class="cart_all">全选</span></td>
+      <td>商品</td>
+      <td>单价</td>
+      <td>数量</td>
+      <td>小计</td>
+      <td>操作</td>
+    </tr>
+
+    <tr class="cart_item">
+      <td><input type="checkbox" class="cart_check" checked></td>
+      <td>JavaScript实战</td>
+      <td>45.80</td>
+      <td>
+        <span class="cart_reduce">-</span>
+        <span class="cart_num">1</span>
+        <span class="cart_add">+</span>
+      </td>
+      <td><span class="cart_total">0</span></td>
+      <td><span class="cart_del">删除</span></td>
+    </tr>
+    <tr class="cart_item">
+      <td><input type="checkbox" class="cart_check" checked></td>
+      <td>PHP基础案例教程</td>
+      <td>49.80</td>
+      <td>
+        <span class="cart_reduce">-</span>
+        <span class="cart_num">2</span>
+        <span class="cart_add">+</span>
+      </td>
+      <td><span class="cart_total">0</span></td>
+      <td><span class="cart_del">删除</span></td>
+    </tr>
+    <tr class="cart_item">
+      <td><input type="checkbox" class="cart_check" checked></td>
+      <td>HTML+CSS网页制作</td>
+      <td>45.20</td>
+      <td>
+        <span class="cart_reduce">-</span>
+        <span class="cart_num">5</span>
+        <span class="cart_add">+</span>
+      </td>
+      <td><span class="cart_total">0</span></td>
+      <td><span class="cart_del">删除</span></td>
+    </tr>
+    <tr class="cart_item">
+      <td><input type="checkbox" class="cart_check" checked></td>
+      <td>Java基础入门</td>
+      <td>45.00</td>
+      <td>
+        <span class="cart_reduce">-</span>
+        <span class="cart_num">8</span>
+        <span class="cart_add">+</span>
+      </td>
+      <td><span class="cart_total">0</span></td>
+      <td><span class="cart_del">删除</span></td>
+    </tr>
+    <tr class="cart_bottom">
+      <td colspan="6">
+        <span>已选择<span class="cart_total+number">0</span>件商品</span>
+        <span>总计：<span class="cart_total_price">0</span></span>
+        <span>提交订单</span>
+      </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

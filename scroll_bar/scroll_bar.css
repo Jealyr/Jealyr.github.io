@@ -1,0 +1,100 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-24 13:58:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-24 16:43:48
+*/
+*{
+    margin:0;
+    padding:0;
+}
+.myclass{
+    width: 100%;
+}
+.myclass div{
+    position: relative;
+    left: 10%;
+    margin-top: 20px;
+    margin-right: 6%;
+    padding:20px 1%;
+    width: 70%;
+    background-color: #F0EEEE;
+}
+.content span:first-child{
+    display: block;
+    margin:0 10px;
+    float: left;
+    width: 5px;
+    height: 25px;
+}
+.fashion span:first-child{
+    background-color:#FD456A;
+}
+.electronics span:first-child{
+    background-color:#3693F5;
+}
+.health span:first-child{
+    background-color:#07B727;
+}
+.home span:first-child{
+    background-color:#F05E5E;
+}
+.outdoors span:first-child{
+    background-color:#4BF6D9;
+}
+.content span:nth-child(3){
+    display: block;
+    margin:15px 1%;
+    width: 100%;
+    height: 2px;
+    background-color:#3466F1;
+}
+div img{
+    width: 30%;
+    height: 250px;
+    margin:2px 5px;
+}
+.scroll{
+    position:fixed;
+    left: 82%;
+    top: 30px;
+}
+
+
+.scroll span{
+    display: block;
+    margin:5px;
+    width: 80px;
+    height: 70px;
+    background-color:#B8B3B3;
+    }
+.scroll p{
+    width: 2em;
+    font-size: 14px;
+    position:relative;
+    left: 24px;
+    top: 17px;
+}
+.scroll span:hover{
+    cursor: pointer;
+    color:white;
+}
+.scroll span:first-child{
+    color:white;
+    background-color:#E34C89;
+}
+.scroll span:first-child:hover{
+    background-color:#E34C89;
+}
+.scroll span:nth-child(2):hover{
+    background-color:#2A8FD6;
+}
+.scroll span:nth-child(3):hover{
+    background-color:#07B727;
+}
+.scroll span:nth-child(4):hover{
+    background-color:#F05E5E;
+}
+.scroll span:last-child:hover{
+    background-color:#4BF6D9;
+}

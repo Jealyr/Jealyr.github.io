@@ -1,0 +1,46 @@
+/*
+* @Author: Marte
+* @Date:   2018-08-31 18:10:59
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-31 21:55:04
+*/
+.banner{
+    position: relative;
+    overflow: hidden;
+    margin: 100px auto;
+    width: 800px;
+    height: 400px;
+}
+.banner ul{
+    list-style: none;
+}
+.pics{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pics li{
+    float: left;
+}
+.pics li img{
+    width: 800px;
+    height: 400px;
+}
+.hot{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.hot li{
+    display:inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #dad7d7;
+    cursor:pointer;
+}
+.hot .current{
+    background-color: #fff;
+}

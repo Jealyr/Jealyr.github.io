@@ -1,0 +1,112 @@
+h2{
+    margin-left:140px;
+}
+div{
+    background-color: #A1C6AE;
+    border:1px solid #A1C6AE;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 600px;
+}
+.accont{
+    position: relative;
+    height: 230px;
+}
+.address{
+    position: relative;
+    height: 200px;
+}
+.public_profile{
+    position: relative;
+    height: 600px;
+}
+.emails{
+    position: relative;
+    height: 120px;
+}
+h3{
+    position:absolute;
+    left: 10px;
+    top: -15px;
+    padding-left: 30px;
+    border-radius:10px;
+    width: 550px;
+    height: 25px;
+    color: white;
+}
+.accont h3{
+    background-color:#0F1239;
+}
+.address h3{
+    background-color:#5077E4;
+}
+.public_profile h3{
+    background-color:#132AB5;
+}
+.emails h3{
+    background-color:#012275;
+}
+.content{
+    position:absolute;
+    padding-left:50px;
+    width: 530px;
+    top: 25px;
+    left: -5px;
+    background-color:#F6FEA3;
+}
+.content_accont{
+    height: 190px;
+}
+.content_address{
+    height: 160px;
+}
+.content_public{
+    height: 560px;
+}
+.content_emails{
+    height: 80px;
+}
+input{
+    border-radius: 5px;
+}
+.botton_1{
+    position:absolute;
+    margin-left:10px;
+    padding:3px 0 0 3px;
+    width: 60px;
+    height: 17px;
+    border-radius:15px;
+    border:1px solid black;
+    background-color:#C2BCBC;
+    color:black;
+    text-decoration: none;
+}
+.botton_2{
+    text-decoration: none;
+    color:black;
+}
+.p{
+    margin-top:-20px;
+}
+textarea{
+    width: 400px;
+    height: 150px;
+    line-height: 16px;
+}
+fieldset{
+    margin-right: 40px;
+}
+.botton{
+    position:absolute;
+    margin: 15px 300px;
+    padding-left:15px;
+    width: 130px;
+    height: 25px;
+    border-radius:15px;
+    border:1px solid black;
+    background-color:gray;
+    box-shadow:inset 0 2px 4px white;
+    color:white;
+    text-decoration: none;
+}
