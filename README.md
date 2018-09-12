@@ -1,2 +1,2 @@
 # jealyr
-this is my second website
+This is my website.
