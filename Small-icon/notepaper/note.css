@@ -1,0 +1,25 @@
+.note{
+    padding: 3em 1em;
+    position: relative;
+    left: calc(50% - 9em);
+    top: 20em;
+    width: 18em;
+    height: 8em;
+    border-radius: 1em;
+    line-height: 2em;
+    background-color: #4389BF;
+    color:#ffffff;
+    background-image: linear-gradient(-150deg,#ffffff 9%,transparent 0);
+}
+.note:before{
+    content: "";
+    position: absolute;
+    left:16em;
+    top:-6em;
+    width:4em;
+    height:6em;
+    transform: rotate(60deg);
+    transform-origin: 0 6em;
+    border-bottom-right-radius: 1em;
+    background-image: linear-gradient(-30deg,#3C68C3 15%,#3478DD 0,#3478DD 28%,#ffffff 0);
+}

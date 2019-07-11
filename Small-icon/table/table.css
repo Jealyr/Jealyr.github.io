@@ -1,0 +1,34 @@
+/*
+* @Author: Marte
+* @Date:   2018-05-06 11:32:04
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-06 12:02:58
+*/
+table{
+    background-color:#214589;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color:#FFFFFF;
+    text-align: center;
+    box-shadow: 4px 4px 4px #214589;
+}
+caption{
+    margin-bottom: 20px;
+    color:#214589;
+    font-size:1.5em;
+}
+thead{
+    border-bottom: 3px solid black;
+}
+.th{
+    width: 60px;
+}
+th,td{
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+}
+td{
+    background-color:#78DEB8;
+    color:black;
+}

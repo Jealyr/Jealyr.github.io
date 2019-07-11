@@ -1,0 +1,43 @@
+.lock{
+    position:relative;
+    margin: 20px auto;
+    top:18.75em;
+    width: 6em;
+    height: 5em;
+    background-color: black;
+    border:1px solid;
+    border-radius: 1em;
+}
+.lock::before{
+    content: "";
+    position: absolute;
+    left:2.5em;
+    top: 2em;
+    width: 1em;
+    height: 2em;
+    background-color:#ffffff;
+    z-index: 9999;
+    border-radius:.1em;
+    box-shadow: -1.5em -2.5em black,1.5em -2.5em black;
+}
+.lock::after{
+    content:"";
+    position:absolute;
+    left: 1em;
+    top: -2.4em;
+    width: 2em;
+    height: 2em;
+    background-color:#ffffff;
+    border:1em solid;
+    border-color: black black transparent transparent;
+    z-index:-1;
+    border-radius:50%;
+    transform: rotate(-45deg);
+}
+.lock:hover::before{
+box-shadow:4.5em -2.5em black,1.5em -2.5em black;
+}
+.lock:hover::after{
+    left: 4em;
+    top: -2.4em;
+}

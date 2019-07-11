@@ -1,0 +1,20 @@
+.loading{
+    position: relative;
+    left: 50%;
+    top: 300px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    box-shadow: 5px -12px rgba(0,0,0,0.4),13px -20px rgba(0,0,0,0.7),25px -25px rgb(0,0,0);
+    animation: loading 1s steps(10) infinite;
+    transform-origin: 25px;
+}
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
